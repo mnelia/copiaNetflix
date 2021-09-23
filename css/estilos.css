@@ -1,0 +1,47 @@
+
+
+.container{
+    min-width: 1000px;
+    min-height: 450px;
+    background-image: url(../assets/img/eliteHeader.jpg);
+    display: flex;
+}
+
+body{
+    background-color: black !important;
+}
+
+.imagen{
+    width: auto;
+    height: auto;
+    max-width: 100px;
+    max-height: 80px;
+}
+
+.mydiv > btn-default {
+    background:transparent;
+    font-size: large;
+    font-weight: bolder;
+    color: white !important;
+}
+
+.mydiv > .dropdown-menu {
+    background:transparent;
+    font-weight: bold;
+}
+
+ .transparentbar {
+    background-repeat:no-repeat;
+    cursor:pointer;
+    outline:none;
+    border:none;
+    box-shadow:none; 
+    background-image: none;
+    
+
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+
+}
+
