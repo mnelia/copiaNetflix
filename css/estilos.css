@@ -17,7 +17,7 @@ body{
     background-color: rgb(32, 32, 32) !important;
 }
 
-h1, h3, h6{
+h1, h3, h4, h6{
     color: white;
     font-weight: unset;
 }
@@ -101,7 +101,7 @@ h1, h3, h6{
     margin-left: 40px;
 }
 
-.miContenido{
+.miContenido, .lastContent{
     display: flex;
     flex-direction: row;
     background-color: black;
@@ -110,6 +110,6 @@ h1, h3, h6{
     margin-top: 15px;
 }
 
-.midleTitle{
+.midleTitle, .thirdTitle{
     margin-left: 40px;
 }
