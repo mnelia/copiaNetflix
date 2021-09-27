@@ -1,15 +1,38 @@
 
-
+.contenedorNet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 .container{
     min-width: 1000px;
     min-height: 450px;
     background-image: url(../assets/img/eliteHeader.jpg);
     display: flex;
+    justify-content: space-between;
 }
 
 body{
-    background-color: black !important;
+    background-color: rgb(32, 32, 32) !important;
 }
+
+h1, h3, h6{
+    color: white;
+    font-weight: unset;
+}
+
+.titulo{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+
+
 
 .imagen{
     width: auto;
@@ -18,11 +41,18 @@ body{
     max-height: 80px;
 }
 
+.myContenedor{
+    display: flex;
+    flex-direction: row;
+}
+
 .mydiv > btn-default {
     background:transparent;
     font-size: large;
     font-weight: bolder;
     color: white !important;
+    margin-top: 20px;display: flex;
+    flex-direction: row;
 }
 
 .mydiv > .dropdown-menu {
@@ -45,3 +75,41 @@ body{
 
 }
 
+.myTv{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    align-items: center;
+    max-width: 1320px;
+    margin-top: 15px;
+}
+
+.mainTitle{
+    margin-left: 40px;
+}
+
+.myContent{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    align-items: center;
+    max-width: 1320px;
+    margin-top: 15px;
+}
+
+.secondTitle{
+    margin-left: 40px;
+}
+
+.miContenido{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    align-items: center;
+    max-width: 1320px;
+    margin-top: 15px;
+}
+
+.midleTitle{
+    margin-left: 40px;
+}
