@@ -1,12 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
+/* Contenedor body*/
 .contenedorNet{
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
+
+/* Contenedor header*/
 .container{
-    min-width: 1000px;
+    min-width: 1320px;
     min-height: 450px;
     background-image: url(../assets/img/eliteHeader.jpg);
     display: flex;
@@ -29,6 +36,7 @@ h1, h3, h4, h6{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+    padding-left: 120px;
 }
 
 
@@ -46,6 +54,7 @@ h1, h3, h4, h6{
     flex-direction: row;
 }
 
+/* Boton idioma*/
 .mydiv > btn-default {
     background:transparent;
     font-size: large;
@@ -55,11 +64,13 @@ h1, h3, h4, h6{
     flex-direction: row;
 }
 
+/*Boton idioma*/
 .mydiv > .dropdown-menu {
     background:transparent;
     font-weight: bold;
 }
 
+/* Boton idioma*/
  .transparentbar {
     background-repeat:no-repeat;
     cursor:pointer;
@@ -72,9 +83,11 @@ h1, h3, h4, h6{
     background-color: transparent;
     background: transparent;
     border-color: transparent;
+    color: rgb(129, 127, 127) !important;
 
 }
 
+/*Caja contenedora imagen*/
 .myTv{
     display: flex;
     flex-direction: row;
@@ -88,6 +101,7 @@ h1, h3, h4, h6{
     margin-left: 40px;
 }
 
+/*Caja contenedora imagen*/
 .myContent{
     display: flex;
     flex-direction: row;
@@ -101,6 +115,7 @@ h1, h3, h4, h6{
     margin-left: 40px;
 }
 
+/*Cajas contenedoras imagen*/
 .miContenido, .lastContent{
     display: flex;
     flex-direction: row;
@@ -113,3 +128,233 @@ h1, h3, h4, h6{
 .midleTitle, .thirdTitle{
     margin-left: 40px;
 }
+
+/* Botones preguntas frecuentes */
+.btn-primary{
+    background-color: #6c757d !important;
+    min-width: 1130px;
+    border-color: #6c757d !important;
+}
+
+h2{
+    text-align: center;
+}
+
+.netflixEs{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.preguntaDos{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.preguntasFrecuentes{
+    background-color: black;
+    align-items: center;
+    min-width: 1320px;
+    margin-top: 15px;
+    padding-right: 95px;
+    padding-left: 85px;
+}
+
+.hstack{
+    padding-bottom: 40px !important;
+}
+
+.btn-secondary{
+    background-color: red !important;
+    border-color: red !important;
+}
+
+.nosotros{
+    background-color: black;
+    align-items: center;
+    min-width: 1320px;
+    margin-top: 15px;
+    padding-right: 95px;
+    padding-left: 85px;
+}
+
+.preguntaTres{
+    padding-top: 50px;
+    padding-left: 55px;
+    color: rgb(85, 85, 85);
+}
+
+.titles{
+    display: flex;
+    justify-content: space-between;
+    color:rgb(85, 85, 85);
+    padding-top: 20px;
+}
+
+.netEs{
+    color: silver;
+    padding-top: 15px;
+    padding-left: 65px;
+}
+
+.dropdown-toggle{
+    padding-left: 65px !important;
+    color: silver !important;
+}
+
+.nosotros{
+    min-width: 1320px;
+}
+
+/* vista entre mobile y desktop */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+    .container{
+        min-width: auto;
+    }
+    .myTv{
+        display: block;
+        max-width:720px;
+        justify-content: space-around;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .miContenido{
+        display: block;
+        max-width: 720px;
+    }
+
+    .eleven{
+        padding-left: 40px;
+    }
+
+    .midleTitle{
+        padding: 10px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .myContent{
+        display: block;
+        max-width: 720px;
+    }
+
+    .secondTitle{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .device{
+        padding-left: 40px;
+    }
+
+    .lastContent{
+        display: block;
+        max-width: 720px;
+    }
+
+    .thirdTitle{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .preguntasFrecuentes{
+        text-align: center;
+        max-width: 720px;
+        min-width: 720px;
+        
+    }
+
+    .btn-primary{
+        min-width: 70% !important;
+    }
+
+    .nosotros{
+        max-width: 720px;
+        min-width: 720px;
+    }
+}
+
+/* vista mobile */
+@media only screen and (min-width: 0px) and (max-width: 767px){
+
+    .contenedorNet{
+        flex-wrap: wrap;
+    }
+
+    .container{
+        min-width: 630px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo{
+        padding-left: 0px;
+    }
+    .myTv{
+        display: block;
+        min-width: 100%;
+    }
+
+    .miContenido{
+        display: block;
+        min-width: 100%;
+    }
+
+    .midleTitle{
+        text-align: center;
+    }
+
+    .myContent{
+        display: block;
+    }
+
+    .secondTitle{
+        text-align: center;
+    }
+
+    .lastContent{
+        display: block;
+    }
+
+    .thirdTitle{
+        text-align: center;
+    }
+
+    .preguntasFrecuentes{
+        max-width: 630px;
+        min-width: 630px;
+    }
+
+    .btn-primary{
+        min-width: 70% !important;
+        max-width: 70% !important;
+    }
+
+    .gap-2{
+        justify-content: center !important;
+        justify-items: center !important;
+    }
+
+    .nosotros{
+        min-width: 630px;
+        max-width: 630px;
+    }
+
+    .titles{
+        justify-content: space-around;
+    }
+
+    .preguntaTres{
+        padding-left: 0px;
+    }
+
+    .netEs{
+        padding-left: 0px;
+    }
+}
+
+
+
